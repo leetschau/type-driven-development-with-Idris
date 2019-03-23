@@ -1,5 +1,8 @@
 # Section 1.2
 
+The workflow of type-driven development:
+type, define, refine.
+
 ## Exercise answers
 
 1. map: map (* 2) [1,2,3] => [2,4,6]
@@ -11,6 +14,21 @@
 4. get: get 1 [1,2,3] => 2
 
 # Section 1.3
+
+When we say a programming language is *functional*, it means:
+
+* Programs are composed of functions.
+
+* Program execution consists of the evaluation of functions.
+
+* Functions are a first-class language construct.
+
+In a *pure* functional language, the following are also true:
+
+* Functions don’t have side effects such as modifying global variables,
+  throwing exceptions, or performing console input or output.
+
+* As a result, for any specific inputs, a function will always give the same result.
 
 In pure functional programming in general, and Idris in particular,
 you can solve this problem by writing functions and *describe* side effects,
